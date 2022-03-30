@@ -1,3 +1,7 @@
+import requests
+import json
+import urllib.parse
+
 WOLF = os.getenv('WAID') # importiert den Token für Wolframalpha aus einer .env
 
 @client.command(pass_context=True)
